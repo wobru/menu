@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>results</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <h1 style="color: red;font-size: 50px; text-align: center; font-family: monospace;">WORTHYBUY</h1>
+  <style>
+    div.box {
+      text-align: center;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="box1">
+        <h2 style="color: black;font-size: 17px;">01-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center; "><b>93</b></p>
+      </div>
+      <div class="box2">
+        <h2 style="color: black;font-size: 17px;">02-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>61</b></p>
+      </div>
+      <div class="box3">
+        <h2 style="color: black;font-size: 17px;">03-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>71</b></p>
+      </div>
+      <div class="box4">
+        <h2 style="color: black;font-size: 17px; text-align: center;">04-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>60</b></p>
+      </div>
+      <div class="box5">
+        <h2 style="color: black;font-size: 17px;">05-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>64</b></p>
+      </div>
+      <div class="box6">
+        <h2 style="color: black;font-size: 17px;">06-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>96</b></p>
+      </div>
+      <div class="box6">
+        <h2 style="color: black;font-size: 17px;">07-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>65</b></p>
+      </div>
+      <div class="box5">
+        <h2 style="color: black;font-size: 17px;">08-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>86</b></p>
+      </div>
+      <div class="box4">
+        <h2 style="color: black;font-size: 17px;">09-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>69</b></p>
+      </div>
+      <div class="box3">
+        <h2 style="color: black;font-size: 17px;">10-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>44</b></p>
+      </div>
+      <div class="box2">
+        <h2 style="color: black;font-size: 17px;">11-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>70</b></p>
+      </div>
+      <div class="box1">
+        <h2 style="color: black;font-size: 17px;">12-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>55</b></p>
+      </div>
+      <div class="box1">
+        <h2 style="color: black;font-size: 17px;">13-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>21</b></p>
+      </div>
+      <div class="box2">
+        <h2 style="color: black;font-size: 17px;">14-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>58</b></p>
+      </div>
+      <div class="box3">
+        <h2 style="color: black;font-size: 17px;">15-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>14</b></p>
+      </div>
+      <div class="box4">
+        <h2 style="color: black;font-size: 17px;">16-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>21</b></p>
+      </div>
+      <div class="box5">
+        <h2 style="color: black;font-size: 17px;">17-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>94</b></p>
+      </div>
+      <div class="box6">
+        <h2 style="color: black;font-size: 17px;">18-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>09</b></p>
+      </div>
+      <div class="box6">
+        <h2 style="color: black;font-size: 17px;">19-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>72</b></p>
+      </div>
+      <div class="box5">
+        <h2 style="color: black;font-size: 17px;">20-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>50</b></p>
+      </div>
+      <div class="box4">
+        <h2 style="color: black;font-size: 17px;">21-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>08</b></p>
+      </div>
+      <div class="box3">
+        <h2 style="color: black;font-size: 17px;">22-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>62</b></p>
+      </div>
+      <div class="box2">
+        <h2 style="color: black;font-size: 17px;">23-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>10</b></p>
+      </div>
+      <div class="box1">
+        <h2 style="color: black;font-size: 17px;">24-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>59</b></p>
+      </div>
+      <div class="box1">
+        <h2 style="color: black;font-size: 17px;">25-08-2020</h2>
+        <p style="color: black;font-size: 25px;text-align: center;"><b>73</b></p>
+      </div>
+        <div class="box2">
+          <h2 style="color: black;font-size: 17px;">26-08-2020</h2>
+          <p style="color: black;font-size: 25px;text-align: center;"><b>33</b></p>
+        </div>
+        <div class="box3">
+          <h2 style="color: black;font-size: 17px;">27-08-2020</h2>
+          <p style="color: black;font-size: 25px;text-align: center;"><b>80</b></p>
+        </div>
+        <div class="box4">
+          <h2 style="color: black;font-size: 17px;">28-08-2020</h2>
+          <p style="color: black;font-size: 25px;text-align: center;"><b>35</b></p>
+        </div>
+        <div class="box5">
+          <h2 style="color: black;font-size: 17px;">29-08-2020</h2>
+          <p style="color: black;font-size: 25px;text-align: center;"><b>18</b></p>
+        </div>
+        <div class="box6">
+          <h2 style="color: black;font-size: 17px;">30-08-2020</h2>
+          <p style="color: black;font-size: 25px;text-align: center;"><b>35</b></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
