@@ -1,55 +1,438 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>AUGUST</title>
-    <link rel="stylesheet" type="text/css" href="style4.css" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="box shadow col-lg-2">01-AUG-2020</div>
-        <div class="box shadow col-lg-2">02-AUG-2020</div>
-        <div class="box shadow col-lg-2">03-AUG-2020</div>
-        <div class="box shadow col-lg-2">04-AUG-2020</div>
-        <div class="box shadow col-lg-2">05-AUG-2020</div>
-        <div class="box shadow col-lg-2">06-AUG-2020</div>
-      </div>
-      <div class="box shadow">07-AUG-2020</div>
-      <div class="box shadow">08-AUG-2020</div>
-      <div class="box shadow">09-AUG-2020</div>
-      <div class="box shadow">10-AUG-2020</div>
-      <div class="box shadow">11-AUG-2020</div>
-      <div class="box shadow">12-AUG-2020</div>
-      <div class="box shadow">13-AUG-2020</div>
-      <div class="box shadow">14-AUG-2020</div>
-      <div class="box shadow">15-AUG-2020</div>
-      <div class="box shadow">16-AUG-2020</div>
-      <div class="box shadow">17-AUG-2020</div>
-      <div class="box shadow">18-AUG-2020</div>
-      <div class="box shadow">19-AUG-2020</div>
-      <div class="box shadow">20-AUG-2020</div>
-      <div class="box shadow">21-AUG-2020</div>
-      <div class="box shadow">22-AUG-2020</div>
-      <div class="box shadow">23-AUG-2020</div>
-      <div class="box shadow">24-AUG-2020</div>
-      <div class="box shadow">25-AUG-2020</div>
-      <div class="box shadow">26-AUG-2020</div>
-      <div class="box shadow">27-AUG-2020</div>
-      <div class="box shadow">28-AUG-2020</div>
-      <div class="box shadow">29-AUG-2020</div>
-      <div class="box shadow">30-AUG-2020</div>
-      <div class="box shadow">31-AUG-2020</div>
-      <div class="box shadow">01-sep-2020</div>
-      <div class="box shadow">02-sep-2020</div>
-      <div class="box shadow">03-sep-2020</div>
-      <div class="box shadow">04-sep-2020</div>
-      <div class="box shadow">05-sep-2020</div>
-    </div>
-  </body>
-</html>
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 720px;
+  height: 600px;
+  background: purple;
+  margin: 15px auto;
+  display: grid;
+  grid-template-columns: repeat(6, 120px);
+  grid-template-rows: repeat(5, 120px);
+}
+.container .box1 {
+  background: #cc0000;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box1 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box2 {
+  background: #ff0000;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box2 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box3 {
+  background: #ff3333;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box3 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box4 {
+  background: #ff6666;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box4 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box5 {
+  background: #ff9999;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box5 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box6 {
+  background: #ffcccc;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box6 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box7 {
+  background: #cc6600;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box7 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box8 {
+  background: #ff8000;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box8 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box9 {
+  background: #ff9933;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box9 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box10 {
+  background: #ffb266;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box10 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box11 {
+  background: #ffcc99;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box11 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box12 {
+  background: #ffe5cc;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box12 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box13 {
+  background: #cccc00;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box13 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box14 {
+  background: #ffff00;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box14 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box15 {
+  background: #ffff33;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box15 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box16 {
+  background: #ffff66;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box16 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box17 {
+  background: #ffff99;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box17 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box18 {
+  background: #ffffcc;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box18 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box19 {
+  background: #66cc00;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box19 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box20 {
+  background: #80ff00;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box20 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box21 {
+  background: #99ff33;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box21 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box22 {
+  background: #b2ff66;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box22 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box23 {
+  background: #ccff99;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box23 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box24 {
+  background: #e5ffcc;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box24 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box25 {
+  background: #6600cc;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box25 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box26 {
+  background: #7f00ff;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box26 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box27 {
+  background: #9933ff;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box27 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box28 {
+  background: #b266ff;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box28 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box29 {
+  background: #cc99ff;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box29 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+.container .box30 {
+  background: #e5ccff;
+  display: grid;
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+.container .box30 h2 {
+  margin: 0;
+  padding: 0px;
+  justify-self: center;
+  align-self: center;
+  font-family: sans-serif;
+  font-size: 10px;
+}
